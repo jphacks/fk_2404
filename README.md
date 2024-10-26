@@ -2,31 +2,6 @@
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
 
-## チーム開発ドキュメント
-
-### 1.前提
-
-#### 　フォルダ構成の確認
-
-* react-blockchai：NFT発行のスマートコントラクトの記述、デバイスのUIなどをフロントエンドで。
-* hardwar：臭いセンサーからの値取得。メタデータ作成のトランザクションの記述
-
-
-### 2.要件定義
-
-### 3.設計
-
-#### 　ネットワーク構成
-
-
-### 4.開発
-
-#### 　開発ライフサイクル（github flowの認識合わせ）
-
-* ブランチ命名規則について
-
-### 5.デプロイ
-
 ## 製品概要
 
 ### 背景(製品開発のきっかけ、課題等）
