@@ -1,0 +1,7 @@
+spidev
+RPi.GPIO
+requests
+numpy
+dht11
+typing-extensions
+
