@@ -1,4 +1,4 @@
-const myNFT = artifacts.require("unchien");
+const myNFT = artifacts.require("Unchien");
 
 
 module.exports = function(_deployer) {
