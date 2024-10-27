@@ -112,4 +112,5 @@ React、Node.js
 
 
 ##### ハードウェア面
-![IMG_3400](https://github.com/user-attachments/assets/61f61074-aeff-4fb2-8097-ecf16b8bad2d)
+![IMG_3400](https://github.com/user-attachments/assets/4065eb97-7087-4478-a6dd-553c7416b6c7)
+
