@@ -7,6 +7,7 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 app.use(cors());
+app.use(express.json());
 
 // データを保存するための変数（実際にはデータベースを使うことを推奨）
 let sensorData = {};
