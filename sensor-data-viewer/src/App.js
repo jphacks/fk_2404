@@ -2,29 +2,41 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
     const [data, setData] = useState(null);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         // Node.jsサーバーからデータを取得
         fetch('http://localhost:3000/api/data')
-            .then((response) => response.json())
+            .then((response) => {
+                console.log(response)
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then((data) => setData(data))
-            .catch((error) => console.error('Error fetching data:', error));
+            .catch((error) => setError(error.message));
     }, []);
 
     return (
-        <div>
+        <html>
+            <div>
             <h1>Sensor Data</h1>
-            {data ? (
+            {error ? (
+                <p>Error: {error}</p>
+            ) : data ? (
                 <div>
                   <p>開始時間: {data.start_time}</p>
-                  <p>開始時間: {data.end_time}</p>
+                  <p>終了時間: {data.end_time}</p>
                   <p>場所: {data.label}</p>
-                  <p>深刻さ: {data.grade}%</p>
+                  <p>深刻さ: {data.grade}</p>
                 </div>
             ) : (
                 <p>Loading...</p>
             )}
         </div>
+    </html>
+        
     );
 }
 

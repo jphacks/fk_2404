@@ -20,8 +20,9 @@ app.post('/api/data', (req, res) => {
 
 // GETエンドポイント（Reactからデータを取得する際に使用）
 app.get('/api/data', (req, res) => {
-    res.json(sensorData);
+    res.json(sensorData); // 正しいJSON形式でデータを返す
 });
+console.log(sensorData)
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
