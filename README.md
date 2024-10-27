@@ -111,6 +111,9 @@ React、Node.js
 
 
 ##### ハードウェア面
+実機
 ![IMG_3400 2](https://github.com/user-attachments/assets/db74fd2a-d557-4519-8748-d56d2feb18b6)
+ハードケースデザイン
+![スクリーンショット 2024-10-26 18 05 39](https://github.com/user-attachments/assets/93f523c1-2fc3-4280-b806-c0375ae38df9)
 
 
