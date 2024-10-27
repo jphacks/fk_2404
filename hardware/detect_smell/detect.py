@@ -63,7 +63,7 @@ def get_grade(score):
 
 try:
     dt_begin = getTime()  # Capture the start time
-    for i in range(30):
+    for i in range(250):
         time.sleep(0.237)
 
         GPIO.output(22, True)
