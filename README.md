@@ -43,8 +43,8 @@
 
 
 #### フレームワーク・ライブラリ・モジュール
-　React、Node.js
-
+React、Node.js
+(raspi)spidev, RPi.GPIO,requests
 
 #### デバイス
 　Raspberry
