@@ -9,8 +9,8 @@ def post_data(x):
     label :Final[str] = "九州産業大学15号館2F40"
 
     # デバイスIDをMacアドレスから取得する
-    try:    
-        response = requests.post('http://localhost:3000/', x)
+    try: 
+        response = requests.post('http://localhost:3000/api/data', json=x)
 
     except KeyboardInterrupt:
         print("Cleanup")
