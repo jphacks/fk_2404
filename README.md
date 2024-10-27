@@ -91,6 +91,8 @@ RaspberryPiとLCDモニター、においセンサーなどの各種センサー
 * においセンサー(TGS2450)
 * OSOYOO Touch Screen 3.5inch
 
+
+
 ### 独自技術
 
 #### ハッカソンで開発した独自機能・技術
@@ -105,7 +107,9 @@ React、Node.js
 #### デバイス
 　Raspberry
 　piガスセンサ
+<img width="1002" alt="スクリーンショット 2024-10-27 15 24 20" src="https://github.com/user-attachments/assets/9594113d-2de7-49c5-a3c8-c3e26d8d5542">
+<img width="1002" alt="スクリーンショット 2024-10-27 15 24 15" src="https://github.com/user-attachments/assets/751353d8-7065-4594-80de-ed357f248a1b">
 
 
 ##### ハードウェア面
-
+![IMG_3400](https://github.com/user-attachments/assets/61f61074-aeff-4fb2-8097-ecf16b8bad2d)
