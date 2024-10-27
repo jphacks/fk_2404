@@ -2,7 +2,6 @@ import spidev
 import RPi.GPIO as GPIO
 import time
 import datetime
-import uuid
 
 from post_data import post_data
 GPIO.setwarnings(False)
@@ -93,17 +92,13 @@ min_val = min(smell_val)
 
 score = (base_val - min_val)
 grade = get_grade(score)
-mac_addr = ':'.join(['{:02x}'.format((uuid.getnode() >> ele) & 0xff) 
-                        for ele in range(0, 8 * 6, 8)][::-1])
 
 # Post data with dt_begin, dt_end, and grade
 data = ({
-
     "start_time": dt_begin.strftime("%Y-%m-%d %H:%M:%S"),
     "end_time": dt_end.strftime("%Y-%m-%d %H:%M:%S"),
-    "mac_addr": mac_addr,
+    "label": "九州産業大学15号館2Fトイレ40",
     "grade": grade,
 })
 
 post_data(data)
-print(data)
